@@ -34,13 +34,17 @@ Git commits: $ git log
 //	https://github.com/a-rmz/wtf-git 
 //	https://education.github.com/
 //	https://www.digitalocean.com/
-//	https://github.com/github/gitignore  
+//	https://github.com/github/gitignore 
+//	https://git-scm.com/book/es/v2 
 
 git commit 				//editor del commit
+
 		:q		 	//ingresar para salir del editor
+		
 		:x			//cerrar y guardar los cambios del editor
 		
 git log					//Datos del Git actual
+
 		-p			//más detalles
 		
 cat filename				//show content of file
@@ -54,7 +58,9 @@ git status				//Estado del Git
 vim .git/hooks/pre-commit		//crear script para ejecutar en bash antes del commit
 
 vim .gitignore				//archivos a ignorar
+
 		bin/			//ignorar todos los archivos dentro de bin/
+		
 		*.o			//ignorar todos los archivos con terminación .o
 
 mkdir bin				//crear directorio bin
