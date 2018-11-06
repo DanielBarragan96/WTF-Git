@@ -64,14 +64,14 @@ touch bin/algo.o bin/algo.c		//crear dos archivos dentro de bin
 cmd //c tree				//Tree del Git
 
 Remote
-*Fetch: guardar archivos sin modificar tus archivos
-*Pull: hace un fetch y los combina con tu código
-*Push: tomar hasta el último commit y va a subirlos al remote indicado
+	*Fetch: guardar archivos sin modificar tus archivos
+	*Pull: hace un fetch y los combina con tu código
+	*Push: tomar hasta el último commit y va a subirlos al remote indicado
 
 Fork
-*es una copia de un proyecto
-*pull request: pedir permiso para subir tus cambios
-*merge request: solicitar combinar tu branch con la del dueño del repo
+	*es una copia de un proyecto
+	*pull request: pedir permiso para subir tus cambios
+	*merge request: solicitar combinar tu branch con la del dueño del repo
 
 git remote -v				//Git origin status
 
