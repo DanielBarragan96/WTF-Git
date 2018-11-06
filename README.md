@@ -19,6 +19,7 @@ Git commits: $ git log
 
 
 --------------------------WTF is Git
+
 				//	https://github.com/a-rmz/wtf-git 
 				//	https://education.github.com/
 				//	https://www.digitalocean.com/
